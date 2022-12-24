@@ -5,7 +5,7 @@ fun main() {
            println("${Thread.currentThread()} has started")
            for (i in states) {
                println("${Thread.currentThread()} - $i")
-               Thread.sleep(50)
+               Thread.sleep(50)  //sleep for 50ms
            }
        }.start()
    }
